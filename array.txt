@@ -1,0 +1,12 @@
+import numpy as np 
+ 
+ A = np.array([[1, 2, 3],              
+    	      [4, 5, 6],                
+	      [7, 8, 9]]) 
+ B = A.copy()  
+ B[0, 1] = 999   
+ B[0, 2] = 999   
+ B[1, 1] = 999  
+ B[1, 2] = 999   
+ print("Matrix A:\n", A) 
+ print("\nMatrix B:\n", B) 
